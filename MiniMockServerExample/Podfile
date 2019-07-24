@@ -1,0 +1,24 @@
+inhibit_all_warnings!
+
+platform :ios, '11.0'
+workspace '../MiniMockServer'
+
+target 'MiniMockServerExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MiniMockServerExample
+  pod 'Moya', '~> 13.0'
+
+  target 'MiniMockServerExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'MiniMockServerExampleUITests' do
+  use_frameworks!
+  inherit! :search_paths
+  pod 'MiniMockServer', :path => '../'
+end

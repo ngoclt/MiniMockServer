@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1D4B8222E9A3F600E4D2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D4B8122E9A3F600E4D2DF /* AppDelegate.swift */; };
+		4C1D4B8422E9A3F600E4D2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D4B8322E9A3F600E4D2DF /* ViewController.swift */; };
+		4C1D4B8722E9A3F600E4D2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D4B8522E9A3F600E4D2DF /* Main.storyboard */; };
+		4C1D4B8922E9A3F700E4D2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D4B8822E9A3F700E4D2DF /* Assets.xcassets */; };
+		4C1D4B8C22E9A3F700E4D2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D4B8A22E9A3F700E4D2DF /* LaunchScreen.storyboard */; };
+		4C1D4B9722E9A3F700E4D2DF /* MiniMockServerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D4B9622E9A3F700E4D2DF /* MiniMockServerExampleTests.swift */; };
+		4C1D4BDA22E9C54F00E4D2DF /* MiniMockServerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D4BD922E9C54F00E4D2DF /* MiniMockServerExampleUITests.swift */; };
+		688ABD1C9660E6D9C456A12B /* Pods_MiniMockServerExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD037D64B1091207BD086DC /* Pods_MiniMockServerExampleUITests.framework */; };
+		7F981F64ED33447B4D05BC0F /* Pods_MiniMockServerExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052B55890D7A5F94A21A0643 /* Pods_MiniMockServerExampleTests.framework */; };
+		F7609FE7C1858D6BE91AF186 /* Pods_MiniMockServerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C073EAD69B05BAB9D1BCD580 /* Pods_MiniMockServerExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1D4B9322E9A3F700E4D2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1D4B7622E9A3F600E4D2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1D4B7D22E9A3F600E4D2DF;
+			remoteInfo = MiniMockServerExample;
+		};
+		4C1D4BDC22E9C54F00E4D2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1D4B7622E9A3F600E4D2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1D4B7D22E9A3F600E4D2DF;
+			remoteInfo = MiniMockServerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052B55890D7A5F94A21A0643 /* Pods_MiniMockServerExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniMockServerExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F18C552D8862AFA6C5BC99 /* Pods-MiniMockServerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniMockServerExampleTests.release.xcconfig"; path = "Target Support Files/Pods-MiniMockServerExampleTests/Pods-MiniMockServerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C1D4B7E22E9A3F600E4D2DF /* MiniMockServerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMockServerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1D4B8122E9A3F600E4D2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C1D4B8322E9A3F600E4D2DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C1D4B8622E9A3F600E4D2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C1D4B8822E9A3F700E4D2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1D4B8B22E9A3F700E4D2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C1D4B8D22E9A3F700E4D2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1D4B9222E9A3F700E4D2DF /* MiniMockServerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniMockServerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1D4B9622E9A3F700E4D2DF /* MiniMockServerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMockServerExampleTests.swift; sourceTree = "<group>"; };
+		4C1D4B9822E9A3F700E4D2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1D4BD722E9C54E00E4D2DF /* MiniMockServerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniMockServerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1D4BD922E9C54F00E4D2DF /* MiniMockServerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMockServerExampleUITests.swift; sourceTree = "<group>"; };
+		4C1D4BDB22E9C54F00E4D2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2FE989F36CF3FB52C99028 /* Pods-MiniMockServerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniMockServerExample.release.xcconfig"; path = "Target Support Files/Pods-MiniMockServerExample/Pods-MiniMockServerExample.release.xcconfig"; sourceTree = "<group>"; };
+		7E8090D138C30F0AF2D8DC6C /* Pods-MiniMockServerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniMockServerExample.debug.xcconfig"; path = "Target Support Files/Pods-MiniMockServerExample/Pods-MiniMockServerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9DD037D64B1091207BD086DC /* Pods_MiniMockServerExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniMockServerExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9285536685FC181CBB462CA /* Pods-MiniMockServerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniMockServerExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MiniMockServerExampleTests/Pods-MiniMockServerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C073EAD69B05BAB9D1BCD580 /* Pods_MiniMockServerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniMockServerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50B0800ED89D7E9AF35AAF8 /* Pods-MiniMockServerExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniMockServerExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MiniMockServerExampleUITests/Pods-MiniMockServerExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F00CFCA788781F649B78EF7B /* Pods-MiniMockServerExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniMockServerExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-MiniMockServerExampleUITests/Pods-MiniMockServerExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1D4B7B22E9A3F600E4D2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7609FE7C1858D6BE91AF186 /* Pods_MiniMockServerExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1D4B8F22E9A3F700E4D2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F981F64ED33447B4D05BC0F /* Pods_MiniMockServerExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1D4BD422E9C54E00E4D2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688ABD1C9660E6D9C456A12B /* Pods_MiniMockServerExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1D4B7522E9A3F600E4D2DF = {
+			isa = PBXGroup;
+			children = (
+				4C1D4B8022E9A3F600E4D2DF /* MiniMockServerExample */,
+				4C1D4B9522E9A3F700E4D2DF /* MiniMockServerExampleTests */,
+				4C1D4BD822E9C54F00E4D2DF /* MiniMockServerExampleUITests */,
+				4C1D4B7F22E9A3F600E4D2DF /* Products */,
+				5C067444825E3B89252F69C1 /* Pods */,
+				AAB88B61BF10C053D70FB889 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1D4B7F22E9A3F600E4D2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D4B7E22E9A3F600E4D2DF /* MiniMockServerExample.app */,
+				4C1D4B9222E9A3F700E4D2DF /* MiniMockServerExampleTests.xctest */,
+				4C1D4BD722E9C54E00E4D2DF /* MiniMockServerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1D4B8022E9A3F600E4D2DF /* MiniMockServerExample */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D4B8122E9A3F600E4D2DF /* AppDelegate.swift */,
+				4C1D4B8322E9A3F600E4D2DF /* ViewController.swift */,
+				4C1D4B8522E9A3F600E4D2DF /* Main.storyboard */,
+				4C1D4B8822E9A3F700E4D2DF /* Assets.xcassets */,
+				4C1D4B8A22E9A3F700E4D2DF /* LaunchScreen.storyboard */,
+				4C1D4B8D22E9A3F700E4D2DF /* Info.plist */,
+			);
+			path = MiniMockServerExample;
+			sourceTree = "<group>";
+		};
+		4C1D4B9522E9A3F700E4D2DF /* MiniMockServerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D4B9622E9A3F700E4D2DF /* MiniMockServerExampleTests.swift */,
+				4C1D4B9822E9A3F700E4D2DF /* Info.plist */,
+			);
+			path = MiniMockServerExampleTests;
+			sourceTree = "<group>";
+		};
+		4C1D4BD822E9C54F00E4D2DF /* MiniMockServerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D4BD922E9C54F00E4D2DF /* MiniMockServerExampleUITests.swift */,
+				4C1D4BDB22E9C54F00E4D2DF /* Info.plist */,
+			);
+			path = MiniMockServerExampleUITests;
+			sourceTree = "<group>";
+		};
+		5C067444825E3B89252F69C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E8090D138C30F0AF2D8DC6C /* Pods-MiniMockServerExample.debug.xcconfig */,
+				7B2FE989F36CF3FB52C99028 /* Pods-MiniMockServerExample.release.xcconfig */,
+				B9285536685FC181CBB462CA /* Pods-MiniMockServerExampleTests.debug.xcconfig */,
+				35F18C552D8862AFA6C5BC99 /* Pods-MiniMockServerExampleTests.release.xcconfig */,
+				D50B0800ED89D7E9AF35AAF8 /* Pods-MiniMockServerExampleUITests.debug.xcconfig */,
+				F00CFCA788781F649B78EF7B /* Pods-MiniMockServerExampleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAB88B61BF10C053D70FB889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C073EAD69B05BAB9D1BCD580 /* Pods_MiniMockServerExample.framework */,
+				052B55890D7A5F94A21A0643 /* Pods_MiniMockServerExampleTests.framework */,
+				9DD037D64B1091207BD086DC /* Pods_MiniMockServerExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1D4B7D22E9A3F600E4D2DF /* MiniMockServerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1D4B9B22E9A3F700E4D2DF /* Build configuration list for PBXNativeTarget "MiniMockServerExample" */;
+			buildPhases = (
+				5B243B8C92DCD83C1889D25A /* [CP] Check Pods Manifest.lock */,
+				4C1D4B7A22E9A3F600E4D2DF /* Sources */,
+				4C1D4B7B22E9A3F600E4D2DF /* Frameworks */,
+				4C1D4B7C22E9A3F600E4D2DF /* Resources */,
+				73D6FC100CA25D5C4E80E4D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniMockServerExample;
+			productName = MiniMockServerExample;
+			productReference = 4C1D4B7E22E9A3F600E4D2DF /* MiniMockServerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1D4B9122E9A3F700E4D2DF /* MiniMockServerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1D4B9E22E9A3F700E4D2DF /* Build configuration list for PBXNativeTarget "MiniMockServerExampleTests" */;
+			buildPhases = (
+				5C1602C2F26CF0F2E167D918 /* [CP] Check Pods Manifest.lock */,
+				4C1D4B8E22E9A3F700E4D2DF /* Sources */,
+				4C1D4B8F22E9A3F700E4D2DF /* Frameworks */,
+				4C1D4B9022E9A3F700E4D2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1D4B9422E9A3F700E4D2DF /* PBXTargetDependency */,
+			);
+			name = MiniMockServerExampleTests;
+			productName = MiniMockServerExampleTests;
+			productReference = 4C1D4B9222E9A3F700E4D2DF /* MiniMockServerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C1D4BD622E9C54E00E4D2DF /* MiniMockServerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1D4BE022E9C54F00E4D2DF /* Build configuration list for PBXNativeTarget "MiniMockServerExampleUITests" */;
+			buildPhases = (
+				19D07BFA6934D48A85A56303 /* [CP] Check Pods Manifest.lock */,
+				4C1D4BD322E9C54E00E4D2DF /* Sources */,
+				4C1D4BD422E9C54E00E4D2DF /* Frameworks */,
+				4C1D4BD522E9C54E00E4D2DF /* Resources */,
+				807E18C583367D6BFD9A17D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1D4BDD22E9C54F00E4D2DF /* PBXTargetDependency */,
+			);
+			name = MiniMockServerExampleUITests;
+			productName = MiniMockServerExampleUITests;
+			productReference = 4C1D4BD722E9C54E00E4D2DF /* MiniMockServerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1D4B7622E9A3F600E4D2DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Coder Life";
+				TargetAttributes = {
+					4C1D4B7D22E9A3F600E4D2DF = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					4C1D4B9122E9A3F700E4D2DF = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4C1D4B7D22E9A3F600E4D2DF;
+					};
+					4C1D4BD622E9C54E00E4D2DF = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4C1D4B7D22E9A3F600E4D2DF;
+					};
+				};
+			};
+			buildConfigurationList = 4C1D4B7922E9A3F600E4D2DF /* Build configuration list for PBXProject "MiniMockServerExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1D4B7522E9A3F600E4D2DF;
+			productRefGroup = 4C1D4B7F22E9A3F600E4D2DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1D4B7D22E9A3F600E4D2DF /* MiniMockServerExample */,
+				4C1D4B9122E9A3F700E4D2DF /* MiniMockServerExampleTests */,
+				4C1D4BD622E9C54E00E4D2DF /* MiniMockServerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1D4B7C22E9A3F600E4D2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1D4B8C22E9A3F700E4D2DF /* LaunchScreen.storyboard in Resources */,
+				4C1D4B8922E9A3F700E4D2DF /* Assets.xcassets in Resources */,
+				4C1D4B8722E9A3F600E4D2DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1D4B9022E9A3F700E4D2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1D4BD522E9C54E00E4D2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D07BFA6934D48A85A56303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniMockServerExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B243B8C92DCD83C1889D25A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniMockServerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C1602C2F26CF0F2E167D918 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniMockServerExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73D6FC100CA25D5C4E80E4D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniMockServerExample/Pods-MiniMockServerExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniMockServerExample/Pods-MiniMockServerExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniMockServerExample/Pods-MiniMockServerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807E18C583367D6BFD9A17D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniMockServerExampleUITests/Pods-MiniMockServerExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniMockServerExampleUITests/Pods-MiniMockServerExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniMockServerExampleUITests/Pods-MiniMockServerExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1D4B7A22E9A3F600E4D2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1D4B8422E9A3F600E4D2DF /* ViewController.swift in Sources */,
+				4C1D4B8222E9A3F600E4D2DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1D4B8E22E9A3F700E4D2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1D4B9722E9A3F700E4D2DF /* MiniMockServerExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1D4BD322E9C54E00E4D2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1D4BDA22E9C54F00E4D2DF /* MiniMockServerExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1D4B9422E9A3F700E4D2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1D4B7D22E9A3F600E4D2DF /* MiniMockServerExample */;
+			targetProxy = 4C1D4B9322E9A3F700E4D2DF /* PBXContainerItemProxy */;
+		};
+		4C1D4BDD22E9C54F00E4D2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1D4B7D22E9A3F600E4D2DF /* MiniMockServerExample */;
+			targetProxy = 4C1D4BDC22E9C54F00E4D2DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C1D4B8522E9A3F600E4D2DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1D4B8622E9A3F600E4D2DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C1D4B8A22E9A3F700E4D2DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1D4B8B22E9A3F700E4D2DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C1D4B9922E9A3F700E4D2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C1D4B9A22E9A3F700E4D2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1D4B9C22E9A3F700E4D2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8090D138C30F0AF2D8DC6C /* Pods-MiniMockServerExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVKPWWHTCM;
+				INFOPLIST_FILE = MiniMockServerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = life.coder.MiniMockServerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C1D4B9D22E9A3F700E4D2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2FE989F36CF3FB52C99028 /* Pods-MiniMockServerExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVKPWWHTCM;
+				INFOPLIST_FILE = MiniMockServerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = life.coder.MiniMockServerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C1D4B9F22E9A3F700E4D2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9285536685FC181CBB462CA /* Pods-MiniMockServerExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVKPWWHTCM;
+				INFOPLIST_FILE = MiniMockServerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = life.coder.MiniMockServerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniMockServerExample.app/MiniMockServerExample";
+			};
+			name = Debug;
+		};
+		4C1D4BA022E9A3F700E4D2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F18C552D8862AFA6C5BC99 /* Pods-MiniMockServerExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVKPWWHTCM;
+				INFOPLIST_FILE = MiniMockServerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = life.coder.MiniMockServerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniMockServerExample.app/MiniMockServerExample";
+			};
+			name = Release;
+		};
+		4C1D4BDE22E9C54F00E4D2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50B0800ED89D7E9AF35AAF8 /* Pods-MiniMockServerExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVKPWWHTCM;
+				INFOPLIST_FILE = MiniMockServerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = life.coder.MiniMockServerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiniMockServerExample;
+			};
+			name = Debug;
+		};
+		4C1D4BDF22E9C54F00E4D2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00CFCA788781F649B78EF7B /* Pods-MiniMockServerExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVKPWWHTCM;
+				INFOPLIST_FILE = MiniMockServerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = life.coder.MiniMockServerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiniMockServerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1D4B7922E9A3F600E4D2DF /* Build configuration list for PBXProject "MiniMockServerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1D4B9922E9A3F700E4D2DF /* Debug */,
+				4C1D4B9A22E9A3F700E4D2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1D4B9B22E9A3F700E4D2DF /* Build configuration list for PBXNativeTarget "MiniMockServerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1D4B9C22E9A3F700E4D2DF /* Debug */,
+				4C1D4B9D22E9A3F700E4D2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1D4B9E22E9A3F700E4D2DF /* Build configuration list for PBXNativeTarget "MiniMockServerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1D4B9F22E9A3F700E4D2DF /* Debug */,
+				4C1D4BA022E9A3F700E4D2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1D4BE022E9C54F00E4D2DF /* Build configuration list for PBXNativeTarget "MiniMockServerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1D4BDE22E9C54F00E4D2DF /* Debug */,
+				4C1D4BDF22E9C54F00E4D2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1D4B7622E9A3F600E4D2DF /* Project object */;
+}
