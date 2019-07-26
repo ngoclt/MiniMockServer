@@ -112,11 +112,12 @@ MiniMockServer is a Swift framework which provides a very simple solution to stu
   #  the lib prefix of their name.
   #
 
-  spec.frameworks = "Foundation", "XCTest"
+  spec.frameworks = "XCTest"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
+  spec.swift_version = "4.2"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
