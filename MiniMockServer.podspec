@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-MiniMockServer is a API server solution for stubbing network requests.
+MiniMockServer is a Swift framework which provides a very simple solution to stub network requests for UI/Integration tests on iOS.
                    DESC
 
   spec.homepage     = "https://github.com/ngoclt/MiniMockServer"
