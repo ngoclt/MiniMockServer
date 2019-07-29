@@ -30,5 +30,10 @@ class VolumeCollectionViewCell: UICollectionViewCell, Reusable {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setAccessibilityIdentifiers()
+    }
+    
+    private func setAccessibilityIdentifiers() {
+        publisherLabel.accessibilityIdentifier = "publisherLabel"
     }
 }

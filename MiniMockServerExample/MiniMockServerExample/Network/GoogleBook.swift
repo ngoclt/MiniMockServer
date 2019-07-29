@@ -18,6 +18,10 @@ enum GoogleBook {
 extension GoogleBook: TargetType {
     
     public var baseURL: URL {
+        if let server = self.mockServer {
+            return URL(string: server)!
+        }
+        
         return URL(string: "https://www.googleapis.com/books/v1")!
     }
     
@@ -56,5 +60,9 @@ extension GoogleBook: TargetType {
     
     public var validationType: ValidationType {
         return .successCodes
+    }
+    
+    public var mockServer: String? {
+        return ProcessInfo.processInfo.environment["MOCK_SERVER_URL"]
     }
 }

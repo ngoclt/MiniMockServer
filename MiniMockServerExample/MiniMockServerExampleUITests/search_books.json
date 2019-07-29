@@ -1,0 +1,180 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 2,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "BbjUDAAAQBAJ",
+            "etag": "pgIc0QurrJA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/BbjUDAAAQBAJ",
+            "volumeInfo": {
+                "title": "Harry Potter ja viisasten kivi from Mock Server",
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "publisher": "Mock Server",
+                "publishedDate": "2016-08-23",
+                "description": "\"Kun Harry käänsi kirjekuoren vapisevin käsin ympäri, hän näki purppuranpunaisen vahasinetin, jossa oli vaakuna: leijona, kotka, mäyrä ja käärme ison T-kirjaimen ympärillä. \" Harry Potter ei ole koskaan kuullutkaan Tylypahkasta kun kirjeitä alkaa sadella sisään Likusteritie 4:n postiluukusta. Harryn karmea setä ja täti takavarikoivat pikaisesti kellertävälle pergamenttipaperille vihreällä musteella kirjoitetut kirjeet. Sitten, Harryn 11. syntymäpäivänä, koppakuoriaissilmäinen ja jättikokoinen mies nimeltä Rubeus Hagrid paukahtaa ovesta sisään hämmentävien uutisten kera: Harry Potter on velho, ja hänelle on varattu paikka Tylypahkan noitien ja velhojen koulusta. Uskomaton seikkailu on alkamassa!",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781781101803"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1781101809"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 335,
+                "printType": "BOOK",
+                "categories": [
+                    "Juvenile Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.6.7.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=BbjUDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=BbjUDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "fi",
+                "previewLink": "http://books.google.fi/books?id=BbjUDAAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=BbjUDAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=BbjUDAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "FI",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 8.99,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 8.99,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=BbjUDAAAQBAJ&rdid=book-BbjUDAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 8990000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 8990000.0,
+                            "currencyCode": "EUR"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "FI",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.fi/books/download/Harry_Potter_ja_viisasten_kivi-sample-epub.acsm?id=BbjUDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.fi/books/download/Harry_Potter_ja_viisasten_kivi-sample-pdf.acsm?id=BbjUDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=BbjUDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&quot;Kun Harry käänsi kirjekuoren vapisevin käsin ympäri, hän näki purppuranpunaisen vahasinetin, jossa oli vaakuna: leijona, kotka, mäyrä ja käärme ison T-kirjaimen ympärillä."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "iO5pApw2JycC",
+            "etag": "KlpyBaxhJCA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/iO5pApw2JycC",
+            "volumeInfo": {
+                "title": "The Ivory Tower and Harry Potter",
+                "subtitle": "Perspectives on a Literary Phenomenon",
+                "authors": [
+                    "Lana A. Whited"
+                ],
+                "publisher": "University of Missouri Press",
+                "publishedDate": "2004",
+                "description": "Now available in paper, The Ivory Tower and Harry Potter is the first book-length analysis of J. K. Rowling's work from a broad range of perspectives within literature, folklore, psychology, sociology, and popular culture. A significant portion of the book explores the Harry Potter series' literary ancestors, including magic and fantasy works by Ursula K. LeGuin, Monica Furlong, Jill Murphy, and others, as well as previous works about the British boarding school experience. Other chapters explore the moral and ethical dimensions of Harry's world, including objections to the series raised within some religious circles. In her new epilogue, Lana A. Whited brings this volume up to date by covering Rowling's latest book, Harry Potter and the Order of the Phoenix.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0826215491"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780826215499"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 418,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Criticism"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 13,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "2.0.4.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.fi/books?id=iO5pApw2JycC&printsec=frontcover&dq=harry+potter&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.fi/books?id=iO5pApw2JycC&dq=harry+potter&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Ivory_Tower_and_Harry_Potter.html?hl=&id=iO5pApw2JycC"
+            },
+            "saleInfo": {
+                "country": "FI",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "FI",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.fi/books/download/The_Ivory_Tower_and_Harry_Potter-sample-epub.acsm?id=iO5pApw2JycC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=iO5pApw2JycC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In her new epilogue, Lana A. Whited brings this volume up to date by covering Rowling&#39;s latest book, Harry Potter and the Order of the Phoenix."
+            }
+        }
+    ]
+}

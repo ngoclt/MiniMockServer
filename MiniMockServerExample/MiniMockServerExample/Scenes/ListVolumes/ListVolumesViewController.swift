@@ -54,10 +54,15 @@ class ListVolumesViewController: UIViewController {
         keyword = text
     }
     
+    private func setAccessibilityIdentifiers() {
+        textFieldSearch.accessibilityIdentifier = "textFieldSearch"
+    }
+    
     // MARK: View lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setAccessibilityIdentifiers()
         setKeyword("Harry Potter")
     }
     

@@ -8,7 +8,7 @@
 
 import XCTest
 
-@testable import GBook
+@testable import MiniMockServerExample
 
 class ListVolumesPresenterTests: XCTestCase {
     
