@@ -10,11 +10,11 @@ import XCTest
 
 open class MockableTestCase: XCTestCase {
     
-    let app = XCUIApplication()
+    public static let kMiniMockServerURLKey = "MOCK_SERVER_URL"
     
-    #if MOCKSERVER
-    let dynamicStubs = HTTPDynamicStubs()
-    #endif
+    public let app = XCUIApplication()
+    
+    private let dynamicStubs = HTTPDynamicStubs()
     
     open func initialStubs() -> [HTTPStubInfo]? {
         return nil
@@ -22,17 +22,12 @@ open class MockableTestCase: XCTestCase {
     
     open override func setUp() {
         super.setUp()
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
         
-        #if MOCKSERVER
-        app.launchEnvironment["UITestServer"] = "http://localhost:8080"
+        app.launchEnvironment[MockableTestCase.kMiniMockServerURLKey] = "http://localhost:8080"
         
         let stubs = initialStubs()
         dynamicStubs.setUp(stubs)
-        #endif
         
-        app.launchArguments += ["UI-Testing"]
         app.launch()
     }
     
@@ -40,9 +35,7 @@ open class MockableTestCase: XCTestCase {
         super.tearDown()
         app.launchArguments.removeAll()
         
-        #if MOCKSERVER
         dynamicStubs.tearDown()
-        #endif
     }
     
     public func stub(path: String,
@@ -50,20 +43,14 @@ open class MockableTestCase: XCTestCase {
               header: [String: String]? = nil,
               statusCode: Int = 200,
               response: HTTPStubResponse? = nil) {
-        #if MOCKSERVER
         dynamicStubs.setupStub(path: path, method: method, header: header, statusCode: statusCode, response: response)
-        #endif
     }
     
     public func stub(path: String, redirect: String, method: HTTPMethod = .GET) {
-        #if MOCKSERVER
         dynamicStubs.setupStub(path: path, redirect: redirect, method: method)
-        #endif
     }
     
     public func stub(_ stubs: [HTTPStubInfo]) {
-        #if MOCKSERVER
         dynamicStubs.setUp(stubs)
-        #endif
     }
 }

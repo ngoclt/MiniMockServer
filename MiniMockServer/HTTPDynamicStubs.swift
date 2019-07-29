@@ -16,9 +16,9 @@ public enum HTTPMethod {
     case DELETE
 }
 
-public class HTTPDynamicStubs {
+open class HTTPDynamicStubs {
     
-    var server = HttpServer()
+    private var server = HttpServer()
     
     open func setUp(_ stubs: [HTTPStubInfo]?) {
         if let stub = stubs {
@@ -32,7 +32,7 @@ public class HTTPDynamicStubs {
         server.stop()
     }
     
-    public func setupInitialStubs(_ stubs: [HTTPStubInfo]) {
+    open func setupInitialStubs(_ stubs: [HTTPStubInfo]) {
         // Setting up all the initial mocks from the array
         for stub in stubs {
             setupStub(path: stub.path,
@@ -43,7 +43,7 @@ public class HTTPDynamicStubs {
         }
     }
     
-    public func setupStub(path: String,
+    open func setupStub(path: String,
                           method: HTTPMethod = .GET,
                           header: [String: String]? = nil,
                           statusCode: Int = 200,
@@ -74,7 +74,7 @@ public class HTTPDynamicStubs {
         }
     }
     
-    public func setupStub(path: String, redirect: String, method: HTTPMethod = .GET) {
+    open func setupStub(path: String, redirect: String, method: HTTPMethod = .GET) {
         let response: ((HttpRequest) -> HttpResponse) = { _ in
             .movedPermanently(redirect)
         }
@@ -91,7 +91,7 @@ public class HTTPDynamicStubs {
         }
     }
     
-    public func dataToJSON(data: Data) -> Any? {
+    open func dataToJSON(data: Data) -> Any? {
         do {
             return try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
         } catch let myJSONError {
@@ -102,13 +102,13 @@ public class HTTPDynamicStubs {
 }
 
 public struct HTTPStubInfo {
-    var path: String
-    var method: HTTPMethod
-    var header: [String: String]?
-    var statusCode: Int = 200
-    var response: HTTPStubResponse? = nil
+    public let path: String
+    public let method: HTTPMethod
+    public let header: [String: String]?
+    public let statusCode: Int
+    public let response: HTTPStubResponse?
     
-    init(path: String,
+    public init(path: String,
          method: HTTPMethod,
          header: [String: String]? = nil,
          statusCode: Int = 200,
@@ -122,18 +122,14 @@ public struct HTTPStubInfo {
 }
 
 public enum HTTPStubResponse {
-    case successFile(file: String)
-    case successObject(object: [String: Any])
+    case successFile(fileUrl: URL)
+    case successObject(object: Any)
     case error(rootCause: String, errorMessage: String)
     
-    var jsonData: Data? {
+    public var jsonData: Data? {
         switch self {
-        case .successFile(let file):
-            if let filePath = Bundle.current.path(forResource: file, ofType: "json") {
-                let fileUrl = URL(fileURLWithPath: filePath)
-                return try? Data(contentsOf: fileUrl, options: .uncached)
-            }
-            return nil
+        case .successFile(let fileUrl):
+            return try? Data(contentsOf: fileUrl, options: .uncached)
         case .successObject(let object):
             return try? JSONSerialization.data(withJSONObject: object, options: .prettyPrinted)
         case .error(let rootCause, let errorMessage):

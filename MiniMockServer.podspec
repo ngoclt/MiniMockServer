@@ -117,7 +117,7 @@ MiniMockServer is a Swift framework which provides a very simple solution to stu
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-  spec.swift_version = "4.2"
+  spec.swift_version = "5.0"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
