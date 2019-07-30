@@ -1,9 +1,9 @@
 //
-//  GBookWorker.swift
-//  GBook
+//  MiniMockServerExampleWorker.swift
+//  MiniMockServerExample
 //
 //  Created by Ngoc LE on 2/26/19.
-//  Copyright © 2019 Ngoc LE. All rights reserved.
+//  Copyright © 2019 Coder Life. All rights reserved.
 //
 
 import Foundation

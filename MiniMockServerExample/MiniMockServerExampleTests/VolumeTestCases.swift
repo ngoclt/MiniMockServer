@@ -1,9 +1,9 @@
 //
 //  VolumeTestCases.swift
-//  GBookTests
+//  MiniMockServerExampleTests
 //
 //  Created by Extra Computer on 10/05/2019.
-//  Copyright © 2019 Ngoc LE. All rights reserved.
+//  Copyright © 2019 Coder Life. All rights reserved.
 //
 
 import Foundation

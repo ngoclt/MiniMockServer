@@ -1,9 +1,9 @@
 //
 //  Reusable.swift
-//  GBook
+//  MiniMockServerExample
 //
 //  Created by Ngoc LE on 2/28/19.
-//  Copyright © 2019 Ngoc LE. All rights reserved.
+//  Copyright © 2019 Coder Life. All rights reserved.
 //
 
 import Foundation

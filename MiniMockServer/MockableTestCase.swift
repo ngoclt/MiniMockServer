@@ -1,9 +1,9 @@
 //
 //  MockableTestCase.swift
-//  WhimComponentUITests
+//  MiniMockServer
 //
 //  Created by Ngoc Le on 16/07/2019.
-//  Copyright © 2019 maas. All rights reserved.
+//  Copyright © 2019 Coder Life. All rights reserved.
 //
 
 import XCTest
