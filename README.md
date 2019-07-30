@@ -8,7 +8,9 @@ The lib is based on the code in [this article](https://jodel.com/engineering/dyn
 
 With [Cocoapods](https://cocoapods.org/):
 
-    pod 'MiniMockServer'
+```
+  pod 'MiniMockServer', '0.1.0'
+```
 
 ## Usage
 
@@ -28,7 +30,7 @@ With [Cocoapods](https://cocoapods.org/):
 - Call stub function at any point to override the previous stubbing:
 
 ```swift
-  func testExample() {
+    func testExample() {
         let bundle = Bundle(for: type(of: self))
         guard let fileUrl = bundle.url(forResource: "search_books", withExtension: "json") else {
             XCTFail("Mock file is not exist.")
