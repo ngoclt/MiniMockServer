@@ -56,8 +56,6 @@ open class HTTPDynamicStubs {
             responseData = "{}".data(using: .utf8)!
         }
         
-        
-        // Swifter makes it very easy to create stubbed responses
         let response: ((HttpRequest) -> HttpResponse) = { _ in
             return HttpResponse.raw(statusCode, "OK", header, { try $0.write(responseData) })
         }
