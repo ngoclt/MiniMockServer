@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MiniMockServer"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "A very simple Mock API Server solution to stub network requests."
 
   # This description is used to generate tags and improve search results.
@@ -128,6 +128,6 @@ MiniMockServer is a Swift framework which provides a very simple solution to stu
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "Swifter", "1.4.7"
+  spec.dependency "Swifter", "1.5.0"
 
 end
