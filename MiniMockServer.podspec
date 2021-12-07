@@ -128,6 +128,6 @@ MiniMockServer is a Swift framework which provides a very simple solution to stu
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "Swifter", "1.4.7"
+  spec.dependency "Swifter", "1.5.0"
 
 end
