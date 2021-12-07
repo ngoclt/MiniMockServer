@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MiniMockServer"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "A very simple Mock API Server solution to stub network requests."
 
   # This description is used to generate tags and improve search results.
